@@ -1,0 +1,271 @@
+@media (max-width: 575.98px) {
+
+.h3, h3 {
+    font-size: 1.5rem;
+}   
+.navbar {
+    padding: 12px 1rem;
+}    
+.navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-nav {
+    background: rgb(224, 93, 115);
+}    
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    display: none;
+}
+#banner {
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+.banner-text h4 {
+	font-size: 25px;
+}
+.banner-text h1 {
+	font-size: 50px;
+}
+.banner-text p {
+    padding: 0;
+    padding-bottom: 30px;
+}
+#about {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.about-img{
+    padding-bottom: 20px;
+}
+.about-body{
+    text-align: center;
+}
+#skills {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+#hire-me {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.portfolio-header p {
+	padding: 0;
+}
+.port-img {
+	margin-bottom: 20px;
+}
+#blog {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.blog-body{
+	margin-bottom: 20px;
+	display: flex;
+}
+#contact {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.contact-body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#footer {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+}
+
+/*============== Small Device ===============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar {
+	padding: 12px 1rem;
+}    
+.navbar-toggler i {
+	color: #fff;
+	font-size: 24px;
+}
+.navbar-nav {
+	background: rgb(224, 93, 115);
+}    
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus {
+	outline: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after {
+	display: none;
+}
+#banner {
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+.banner-text p {
+    padding: 0;
+    padding-bottom: 30px;
+}
+#about {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.about-img{
+    padding-bottom: 20px;
+}
+.about-body{
+    text-align: center;
+}
+#skills {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.skills-body {
+	padding: 0;
+}
+#hire-me {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.portfolio-header p {
+	padding: 0;
+}
+#blog {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.blog-body{
+	margin-left: 90px;
+	margin-bottom: 20px;
+}
+#contact {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.contact-body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#footer {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+}
+/*================ medium device ====================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navbar {
+	padding: 12px 1rem;
+}    
+.navbar-toggler i {
+	color: #fff;
+	font-size: 24px;
+}
+.navbar-nav {
+	background: rgb(224, 93, 115);
+}    
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus {
+	outline: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after {
+	display: none;
+}
+#banner {
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+.banner-text p {
+    padding: 0;
+    padding-bottom: 30px;
+}
+#about {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.about-img{
+    padding-bottom: 20px;
+}
+.about-body{
+    text-align: center;
+}
+#skills {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+#hire-me {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+#blog {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.blog-body{
+	margin-left: 190px;
+	margin-bottom: 20px;
+}
+#contact {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+.portfolio-header p {
+	padding: 0;
+}
+.contact-body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#footer {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

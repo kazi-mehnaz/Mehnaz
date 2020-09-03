@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/*============ back to top button ============*/
+.back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    display: none;
+}
+.back-top i {
+    width: 40px;
+    height: 40px;
+    background: rgb(224, 93, 115);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*============ typed css ============*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*============= navbar css ==============*/
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 20px;
+    padding-left: 20px;
+    transition: all linear 0.3s;
+}
+.navbar {
+    padding: 10px 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(74, 126, 223);
+}
+.navbg{
+    background:rgb(224, 93, 115);
+    animation: bg 1s;
+}
+@keyframes bg{
+    from{top:-100px}
+    to{top: 0}
+}
+/*============= banner css ==============*/
+#banner {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 205px;
+    position: relative;
+}
+#banner:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#000000, #000000);
+    opacity: 0.9;
+}
+.banner-text{
+    position: relative;
+    z-index: 999;
+}
+.banner-text h4 {
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.banner-text h1 {
+    font-family: 'Raleway';
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+.banner-text p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0 320px;
+    padding-bottom: 30px;
+}
+.banner-text a{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;    
+    transition: all linear .3s;
+}
+.banner-text a:hover {
+    background: #fff;
+    color: #444;
+    text-decoration: none;
+}
+/*============= about css ==============*/
+#about{
+    background: rgb(29, 27, 27);
+    padding-top: 120px;
+    padding-bottom: 105px;
+}
+.about-img img{
+    width: 100%;
+    border: 4px solid #ddd;
+}
+.about-text h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.about-text h3{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.about-text span{
+    color: rgb(224, 93, 115);
+}
+.about-text p{ 
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.font-icon i{
+    font-size: 25px;
+    color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 5px;
+}
+.font-icon i:hover{
+    color: rgb(224, 93, 115);
+    border: 2px solid rgb(224, 93, 115);
+}
+/*============= skills css ==============*/
+#skills{
+    background: #000;
+    padding-top: 120px;
+    padding-bottom: 105px;
+}
+.skills-header h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #ddd;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.skills-header p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.skills-body{
+    padding: 40px;
+    border: 2px solid #212529;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.skills-body:hover{
+    border: 2px solid rgb(224, 93, 115);
+}
+.skills-body i{
+    font-size: 55px;
+    color: #ddd;
+}
+.skills-body h3{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 15px;
+    position: relative;
+}
+.skills-body h3:after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: rgb(224, 93, 115);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.skills-body p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+}
+
+/*============= hire css ==============*/
+#hire-me{
+    background: rgb(29, 27, 27);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.hire-me h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.hire-me a{
+    font-family: 'Raleway';
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    background: rgb(224, 93, 115);
+    padding: 20px 35px;
+    border-radius: 5px;
+    transition: all linear .3s;   
+}
+.hire-me a:hover{
+    background: rgb(219, 73, 98);
+    color: #fff;
+    text-decoration: none;
+}
+/*============= portfolio css ==============*/
+#portfolio{
+    background:#000;
+    padding-top: 120px;
+    padding-bottom: 105px;
+}
+.portfolio-header h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #ddd;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.portfolio-header p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+    padding: 0 320px;
+    padding-bottom: 40px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: rgb(219, 73, 98);
+}
+.nav .nav-item a {
+	color: #fff;
+}
+.port-img{
+    position: relative;
+    overflow: hidden;
+}
+.port-img img{
+    transition: all linear .3s;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+}
+.text h3{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.port-img:hover .overlay{
+    opacity: 1;
+}
+.port-img:hover img{
+    transform: scale(1.3);
+}
+/*============= blog css ==============*/
+#blog{
+    background: rgb(29, 27, 27);
+    padding-top: 120px;
+    padding-bottom: 105px; 
+}
+.blog-body .btn {
+	background: rgb(219, 73, 98);
+	color: #fff;
+	padding: 10px 20px;
+}
+
+/*============= contact css ==============*/
+#contact{
+    background: #000;
+    padding-top: 120px;
+    padding-bottom: 105px;
+}
+.contact-body {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.contact-body i{
+    color: rgb(219, 73, 98);
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.contact-body h4{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.contact-body p{
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #ddd;
+    font-weight: 400;
+}
+.btn {
+    background: rgb(219, 73, 98);
+    color: #fff;
+    padding: 15px 40px;
+}
+
+/*============= footer css ==============*/
+#footer{ 
+    background: rgb(29, 27, 27);
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+.footer-icon i{
+    font-size: 25px;
+    color: #fff;
+    background: #212529;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 5px;
+}
+.footer-text p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
